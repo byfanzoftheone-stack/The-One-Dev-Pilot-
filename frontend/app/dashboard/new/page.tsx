@@ -101,7 +101,7 @@ export default function NewProjectPage() {
               <label className="text-[var(--text)] text-sm font-medium mb-2 block">Alias *</label>
               <input
                 className="input-base"
-                placeholder="cookbook, my-app, velasco..."
+                placeholder="my-project"
                 value={form.alias}
                 onChange={e => set('alias', e.target.value.toLowerCase().replace(/\s/g, '-'))}
               />
@@ -111,7 +111,7 @@ export default function NewProjectPage() {
               <label className="text-[var(--text)] text-sm font-medium mb-2 block">GitHub Repo Name *</label>
               <input
                 className="input-base"
-                placeholder="Grandma-Carols-cook-book"
+                placeholder="My-GitHub-Repo"
                 value={form.repo_name}
                 onChange={e => set('repo_name', e.target.value)}
               />
